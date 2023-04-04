@@ -98,10 +98,10 @@ print("user4 = "+ user4)
 
 
 url = "WEBHOOKS_URL"
-file = open('DEBUG_PATH"', 'r+')
+file = open('INFO_PATH', 'r+')
 info = file.read()
 file.close
-file = open('DEBUG_PATH"', 'w+')
+file = open('INFO_PATH', 'w+')
 out = ''
 
 if (user1 == "Not authorized"):
